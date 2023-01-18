@@ -1,0 +1,84 @@
+#mainBtn {
+  background-color: #b9d338;
+  padding: 10px;
+  border: none;
+}
+#mainBtn:hover {
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+#gigetto {
+  background-color: #191919;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 35px;
+}
+#gigetto:hover {
+  cursor: pointer;
+}
+
+#dogeBtn {
+  background-color: #191919;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 70px;
+}
+#dogeBtn:hover {
+  cursor: pointer;
+}
+
+body {
+  margin: 0px;
+}
+
+#start {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: white;
+}
+
+.navBar {
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  justify-content: center;
+  align-items: center;
+  background-color: #b010d0;
+  height: 75px;
+  border-bottom: 1px solid black;
+}
+
+.navBar nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 5%;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+}
+
+.navLinks a,
+.navLinks a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+#ruotami {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}/*# sourceMappingURL=app.css.map */
